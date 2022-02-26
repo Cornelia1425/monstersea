@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+section article:nth-child(odd) {
+    color: grey;
+
+}
+
+article:nth-child(3):hover {
+    color:green;
+    cursor:pointer;
+
+}
+
+h1,img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+div, header, section,p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+p {
+    color:rgb(106, 106, 204);
+    font-size: 16px;
+    width:200ps;
+}
+p.big {
+    font-size: 20px;
+
+}
+h1 {
+    color:rgb(96, 221, 152);
+    font-size: 26px;
+    text-align: center;
+}
+
+.rose {
+    color: rgb(233, 170, 133);
+    font-size: 16px;
+}
+
+#grey {
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+    text-align: center;
+}
+
+
+a {
+    color:rgb(0, 0, 0);
+    margin-bottom: 1px;
+} 
+
+a:visited {
+    color:rgb(84, 80, 117);
+    margin-bottom: 1px;
+} 
+
+a:hover {
+    color:rgb(107, 107, 107)
+}
+
+a:active {
+    color:rgb(182, 182, 182)
+}
